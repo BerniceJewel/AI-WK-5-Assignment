@@ -1,94 +1,50 @@
-# AI-WK-5-Assignment
-Objective &amp; Guidelines  This assignment tests your ability to apply the AI Development Workflow to a real-world problem. 
-You will demonstrate understanding of key stages—from problem definition to deployment—and critically analyze challenges and ethical considerations.
+# WEEK-5-AI
+
+Patient Readmission Prediction  AI Workflow Assignment
+
+This project applies the AI Development Workflow to a real-world healthcare scenario: predicting whether a patient will be readmitted within 30 days of discharge. It demonstrates each stage of the pipeline  from problem definition to model deployment and evaluation.
+ Objectives
+
+    Predict high-risk readmissions using Electronic Health Records (EHRs)
+
+    Reduce hospital readmission rates
+
+    Improve patient outcomes and resource allocation
 
 
-Part 1: Short Answer Questions (30 points)
+ Tech Stack
 
-1. Problem Definition (6 points)
+    Python 3
 
-Define a hypothetical AI problem (e.g., "Predicting student dropout rates").
+    Pandas, NumPy, Scikit-learn
 
-List 3 objectives and 2 stakeholders.
+    Matplotlib, Seaborn
 
-Propose 1 Key Performance Indicator (KPI) to measure success.
+📈 Key Features
 
-2. Data Collection & Preprocessing (8 points)
+    Synthetic healthcare dataset generation
 
-Identify 2 data sources for your problem.
+    Preprocessing pipeline (handling missing data, normalization, encoding)
 
-Explain 1 potential bias in the data.
+    Logistic Regression with hyperparameter tuning (GridSearchCV)
 
-Outline 3 preprocessing steps (e.g., handling missing data, normalization).
+    Evaluation using F1-Score AUC ROC and confusion matrix
 
-3. Model Development (8 points)
+    Ethical considerations (bias privacy interpretability)
 
-Choose a model (e.g., Random Forest, Neural Network) and justify your choice.
+ AI Workflow Stages Covered
 
-Describe how you would split data into training/validation/test sets.
+    Business Understanding
 
-Name 2 hyperparameters you would tune and why.
+    Data Understanding
 
-4. Evaluation & Deployment (8 points)
+    Data Preparation
 
-Select 2 evaluation metrics and explain their relevance.
+    Modeling
 
-What is concept drift? How would you monitor it post-deployment?
+    Evaluation
 
-Describe 1 technical challenge during deployment (e.g., scalability).
+    Deployment 
 
-Part 2: Case Study Application (40 points)
+    Monitoring strategy 
 
-Scenario: A hospital wants an AI system to predict patient readmission risk within 30 days of discharge.
-
-Tasks:
-
-Problem Scope (5 points): Define the problem, objectives, and stakeholders.
-
-Data Strategy (10 points):
-
-Propose data sources (e.g., EHRs, demographics).
-
-Identify 2 ethical concerns (e.g., patient privacy).
-
-Design a preprocessing pipeline (include feature engineering steps).
-
-Model Development (10 points):
-
-Select a model and justify it.
-
-Create a confusion matrix and calculate precision/recall (hypothetical data).
-
-Deployment (10 points):
-
-Outline steps to integrate the model into the hospital’s system.
-
-How would you ensure compliance with healthcare regulations (e.g., HIPAA)?
-
-Optimization (5 points): Propose 1 method to address overfitting.
-
-Part 3: Critical Thinking (20 points)
-
-Ethics & Bias (10 points):
-
-How might biased training data affect patient outcomes in the case study?
-
-Suggest 1 strategy to mitigate this bias.
-
-Trade-offs (10 points):
-
-Discuss the trade-off between model interpretability and accuracy in healthcare.
-
-If the hospital has limited computational resources, how might this impact model choice?
-
-Part 4: Reflection & Workflow Diagram (10 points)
-
-Reflection (5 points):
-
-What was the most challenging part of the workflow? Why?
-
-How would you improve your approach with more time/resources?
-
-Diagram (5 points):
-
-Sketch a flowchart of the AI Development Workflow, labeling all stages.
